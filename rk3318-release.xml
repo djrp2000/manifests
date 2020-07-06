@@ -75,19 +75,19 @@
   <project groups="pdk-fs" name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" remote="rk-vendor" revision="95ceddf3c960a528b8455b5251035f9166167fcd" upstream="rk3328-9.0"/>
 
   <!-- rk -->
-  <project name="RKTools" remote="rk-vendor" revision="8bc5619b40fa5166fddeb2607f2330317082c5c7" upstream="rk3328-9.0"/>
-                                                                                                                      
-  <!-- device -->
-  <project name="rk3328" path="device/rockchip/rk3328" remote="rk-vendor" revision="49fd83747b5bb175741faf6a05724d4a89c6b7ad" upstream="rk3328-9.0">
+       
+  <project name="device/rockchip/rk3328" path="device/rockchip/rk3328" remote="rk-vendor" revision="49fd83747b5bb175741faf6a05724d4a89c6b7ad" upstream="rk3328-9.0">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
-  <project name="common" path="device/rockchip/common" remote="rk-vendor" revision="bd506519e59004170d397587f64bd43dff8e65c4" upstream="rk3328-9.0">
+  <project name="device/rockchip/common" path="device/rockchip/common" remote="rk-vendor" revision="bd506519e59004170d397587f64bd43dff8e65c4" upstream="rk3328-9.0">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
   </project>
                                                 
+  <project name="RKTools" remote="rk-vendor" revision="8bc5619b40fa5166fddeb2607f2330317082c5c7" upstream="rk3328-9.0"/>
+  
   <!-- hardware -->
   <project name="audio" path="hardware/rockchip/audio" remote="rk-vendor" revision="8f46ced6192824cf000791131d2d70133f5c9b12" upstream="rk3328-9.0"/>
   <project name="camera" path="hardware/rockchip/camera" remote="rk-vendor" revision="7001deaebd86ee701454e68818dd1cfadb1f0571" upstream="rk3328-9.0"/>
