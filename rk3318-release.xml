@@ -2,8 +2,8 @@
 <manifest>
   <remote fetch="https://gitlab.com/google-group/" name="aosp"/>
   <remote fetch="https://gitlab.com/google-android-p/" name="aosp-p"/>
-  <remote fetch="https://gitlab.com/brian0218/RK3328_ANDROID7.1_BOX_SDK/-/tree/master/" name="rk"/>
-  <remote fetch="https://gitlab.com/brian0218/RK3328_ANDROID7.1_BOX_SDK/-/tree/master/" name="rk3328"/>
+  <remote fetch="https://gitlab.com/brian0218/" name="rk"/>
+  <remote fetch="https://gitlab.com/brian0218/" name="rk3328"/>
   <remote fetch="https://gitlab.com/rk-vendor/" name="rk-vendor"/>
   <remote fetch="https://github.com/rockchip-android/" name="rockchip-android"/>
   
@@ -29,16 +29,16 @@
   <remove-project name="platform/packages/apps/TvSettings" />
 
   <!-- rk -->
-  <remove-project name="RKTools" />
-  <remove-project name="rk/device/rockchip/rk3328" />
-  <remove-project name="device/rockchip/common" />
-  <remove-project name="hardware/rockchip/audio" />
-  <remove-project name="hardware/rockchip/camera"/>
-  <remove-project name="hardware/rockchip/hdmicec" />
-  <remove-project name="kernel" />
-  <remove-project name="platform/vendor/rockchip/common" />
-  <remove-project name="u-boot" />
-  <remove-project name="rkbin" />
+  <remove-project name="RK3328_ANDROID7.1_BOX_SDK/RKTools" />
+  <remove-project name="RK3328_ANDROID7.1_BOX_SDK/device/rockchip/rk3328" />
+  <remove-project name="RK3328_ANDROID7.1_BOX_SDK/device/rockchip/common" />
+  <remove-project name="RK3328_ANDROID7.1_BOX_SDK/hardware/rockchip/audio" />
+  <remove-project name="RK3328_ANDROID7.1_BOX_SDK/hardware/rockchip/camera"/>
+  <remove-project name="RK3328_ANDROID7.1_BOX_SDK/hardware/rockchip/hdmicec" />
+  <remove-project name="RK3328_ANDROID7.1_BOX_SDK/kernel" />
+  <remove-project name="RK3328_ANDROID7.1_BOX_SDK/platform/vendor/rockchip/common" />
+  <remove-project name="RK3328_ANDROID7.1_BOX_SDK/u-boot" />
+  <remove-project name="RK3328_ANDROID7.1_BOX_SDK/rkbin" />
 
   <!-- aosp -->
   <project groups="pdk,tradefed" remote="aosp-p" name="platform/tools/tradefederation" path="tools/tradefederation/core" revision="0f23659ea94a35ac7764909c39abb2aa448156f8" upstream="refs/tags/android-9.0.0_r48"/>
@@ -64,21 +64,21 @@
 
   <!-- rk -->
   <project name="RKTools" remote="rk-vendor" revision="8bc5619b40fa5166fddeb2607f2330317082c5c7" upstream="rk3328-9.0"/>
-  <project name="device/rockchip/rk3328" path="device/rockchip/rk3328" remote="rk-vendor" revision="49fd83747b5bb175741faf6a05724d4a89c6b7ad" upstream="rk3328-9.0">
+  <project name="RK3328_ANDROID7.1_BOX_SDK/device/rockchip/rk3328" path="device/rockchip/rk3328" remote="rk-vendor" revision="49fd83747b5bb175741faf6a05724d4a89c6b7ad" upstream="rk3328-9.0">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
-  <project name="device/rockchip/common" path="device/rockchip/common" remote="rk-vendor" revision="bd506519e59004170d397587f64bd43dff8e65c4" upstream="rk3328-9.0">
+  <project name="RK3328_ANDROID7.1_BOX_SDK/device/rockchip/common" path="device/rockchip/common" remote="rk-vendor" revision="bd506519e59004170d397587f64bd43dff8e65c4" upstream="rk3328-9.0">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
   </project>
-  <project name="hardware/rockchip/audio" path="hardware/rockchip/audio" remote="rk-vendor" revision="8f46ced6192824cf000791131d2d70133f5c9b12" upstream="rk3328-9.0"/>
-  <project name="hardware/rockchip/camera" path="hardware/rockchip/camera" remote="rk-vendor" revision="7001deaebd86ee701454e68818dd1cfadb1f0571" upstream="rk3328-9.0"/>
-  <project name="hardware/rockchip/hdmicec" path="hardware/rockchip/hdmicec" remote="rk-vendor" revision="5a9ae2a7a43f40f532835827a91b11000df2aa0e" upstream="rk3328-9.0"/>
-  <project name="kernel" path="kernel" remote="rk-vendor" revision="28cf67622edae581aeddeb966b83fbdfb0e1fde3" upstream="rk3328-9.0"/>
-  <project name="platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk-vendor" revision="7825e59f31cba3e07b7fc39a12223d8f1208eea5" upstream="rk3328-9.0"/>
-  <project name="u-boot" path="u-boot" remote="rk-vendor" revision="fcf3aab6214d8131b9de2ccef36c390dafbab94f" upstream="rk3328-9.0"/>
+  <project name="RK3328_ANDROID7.1_BOX_SDK/hardware/rockchip/audio" path="hardware/rockchip/audio" remote="rk-vendor" revision="8f46ced6192824cf000791131d2d70133f5c9b12" upstream="rk3328-9.0"/>
+  <project name="RK3328_ANDROID7.1_BOX_SDK/hardware/rockchip/camera" path="hardware/rockchip/camera" remote="rk-vendor" revision="7001deaebd86ee701454e68818dd1cfadb1f0571" upstream="rk3328-9.0"/>
+  <project name="RK3328_ANDROID7.1_BOX_SDK/hardware/rockchip/hdmicec" path="hardware/rockchip/hdmicec" remote="rk-vendor" revision="5a9ae2a7a43f40f532835827a91b11000df2aa0e" upstream="rk3328-9.0"/>
+  <project name="RK3328_ANDROID7.1_BOX_SDK/kernel" path="kernel" remote="rk-vendor" revision="28cf67622edae581aeddeb966b83fbdfb0e1fde3" upstream="rk3328-9.0"/>
+  <project name="RK3328_ANDROID7.1_BOX_SDK/platform/vendor/rockchip/common" path="vendor/rockchip/common" remote="rk-vendor" revision="7825e59f31cba3e07b7fc39a12223d8f1208eea5" upstream="rk3328-9.0"/>
+  <project name="RK3328_ANDROID7.1_BOX_SDK/u-boot" path="u-boot" remote="rk-vendor" revision="fcf3aab6214d8131b9de2ccef36c390dafbab94f" upstream="rk3328-9.0"/>
 
   <project remote="rk-vendor" name="opengapps" path="vendor/opengapps" revision="97ed760350560a121644be77c141946f252ec239" upstream="android9.0-tv"/>
   <project remote="rk-vendor" name="opengapps" path="vendor/opengapps-phone" revision="fdddb590845897303f1541244f88c50d9829d32a" upstream="android-9.0-phone"/>
