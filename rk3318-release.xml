@@ -32,10 +32,11 @@
   <remove-project name="platform/packages/apps/TvSettings" />
 
   <!-- rk -->
-  <remove-project name="RKTools" />
 
   <remove-project name="device/rockchip/rk3328" />
   <remove-project name="device/rockchip/common" />
+  
+  <remove-project name="RKTools" />
   
   <!-- hardware -->
   <remove-project name="audio" />
