@@ -2,8 +2,8 @@
 <manifest>
   <remote fetch="https://gitlab.com/google-group/" name="aosp"/>
   <remote fetch="https://gitlab.com/google-android-p/" name="aosp-p"/>
-  <remote fetch="https://gitlab.com/brian0218/RK3328_ANDROID7.1_BOX_SDK" name="rk"/>
-  <remote fetch="https://gitlab.com/brian0218/RK3328_ANDROID7.1_BOX_SDK" name="rk3328"/>
+  <remote fetch="https://gitlab.com/brian0218/RK3328_ANDROID7.1_BOX_SDK/-/tree/master/" name="rk"/>
+  <remote fetch="https://gitlab.com/brian0218/RK3328_ANDROID7.1_BOX_SDK/-/tree/master/" name="rk3328"/>
   <remote fetch="https://gitlab.com/rk-vendor/" name="rk-vendor"/>
   <remote fetch="https://github.com/rockchip-android/" name="rockchip-android"/>
   
