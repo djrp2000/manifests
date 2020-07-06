@@ -32,10 +32,10 @@
   <remove-project name="platform/packages/apps/TvSettings" />
 
   <!-- rk -->
-  <remove-project name="RKTools" />
+  <remove-project name="RKTools/" />
 
   <!-- device -->
-  <remove-project name="rk3328" />
+  <remove-project name="rk3328/" />
   <remove-project name="common" />
   
   <!-- hardware -->
