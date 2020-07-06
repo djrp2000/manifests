@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<default revision="master" remote="origin"/>
 <manifest>
   <include name="rk3318-release.xml" />
 </manifest>
