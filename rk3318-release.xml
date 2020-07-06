@@ -30,7 +30,7 @@
 
   <!-- rk -->
   <remove-project name="RKTools" />
-  <remove-project name="device/rockchip/rk3328" />
+  <remove-project name="rk/device/rockchip/rk3328" />
   <remove-project name="device/rockchip/common" />
   <remove-project name="hardware/rockchip/audio" />
   <remove-project name="hardware/rockchip/camera"/>
