@@ -39,7 +39,7 @@
 
   <!-- device -->
   <remove-project name="rk3328" />
-  <remove-project name=common" />
+  <remove-project name="common" />
   
   <!-- hardware -->
   <remove-project name="audio" />
