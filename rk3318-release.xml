@@ -7,7 +7,7 @@
   <remote fetch="https://gitlab.com/rk-vendor/" name="rk-vendor"/>
   <remote fetch="https://github.com/rockchip-android/" name="rockchip-android"/>
   
-  <include name="RK3318_Android_Pie_release.xml" />
+  <include name="release_version/rk3318_pie_v9.10_20200417.xml" />
 
   <!-- too big -->
   <remove-project name="device/google/wahoo-kernel" />
